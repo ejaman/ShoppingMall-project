@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Texter</title>
+    <!-- 아이콘 -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/android-chrome-512x512.png"
+    />
+    <!-- bulma css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- 폰트 어썸: 아이콘 -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/7630448495.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 커스텀 css, js -->
+    <link rel="stylesheet" href="productUpdate.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script src="productUpdate.js" type="module" defer></script>
+  </head>
+  <body>
+
+    <section class="section", id="bookUpdateContainer">
+      <div class="container">
+        <div class="register-category-form-container">
+          <form
+            class="form"
+            id="registerCategoryForm"
+          >
+            <p class="panel-heading">상품 수정하기</p>
+            <div class="field">
+              <label class="label" for="titleInput">책 이름</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="titleInput"
+                  type="text"
+                  placeholder="시험"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="categoryInput">책 카테고리</label>
+              <div class="panel-block">
+                <p class="select">
+                  <select id="categoryInput">
+                  </select>
+                </p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="priceInput">가격</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="priceInput"
+                  type="number"
+                  placeholder="가격"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="writerInput">저자</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="writerInput"
+                  type="text"
+                  placeholder="저자"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="publisherInput">출판사</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="publisherInput"
+                  type="text"
+                  placeholder="출판사"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="descriptionInput">상품 설명</label>
+              <div class="control">
+                <textarea
+                  class="textarea"
+                  id="descriptionInput"
+                  rows="2"
+                  placeholder="상품 설명"
+                  autocomplete="on"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="imagerInput">책 이미지 (URL로 입력해주세요.)</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="imageInput"
+                  type="text"
+                  placeholder="url"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+            <div class="panel-block">
+              <button
+                class="btn"
+                id="submitBtn"
+              >
+                수정하기
+              </button>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="productUpdate.js" type="module" defer></script>
+  </body>
+  </html>

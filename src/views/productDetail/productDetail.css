@@ -1,0 +1,188 @@
+body {
+  background-color: black;
+  font-family: "Bebas Neue";
+}
+
+.navbar {
+  background-color: black;
+  border-bottom: 1px solid;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: #db1f2b;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  color: white;
+}
+
+.productLeftBox {
+  align-items: stretch;
+  display: block;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.productLeftBox img {
+  float: right;
+  width: 100%;
+}
+
+.productRightBox {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 1.5rem 3rem;
+  align-items: stretch;
+  flex-basis: 0;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+/*오른쪽 박스 상세설명*/
+.category {
+  font-size: 1.5vw;
+}
+
+.titleTag {
+  font-size: 2.5vw;
+  font-weight: 650;
+}
+
+.priceTag {
+  font-size: 2vw;
+  margin-bottom: 1.5em;
+}
+
+#price {
+  font-weight: 600;
+}
+
+dl.list {
+  display: flex;
+  border-top: 1px solid #ddd;
+  padding: 1em 0;
+  font-size: 1.2vw;
+}
+
+dt {
+  width: 25%;
+  font-weight: 600;
+}
+
+dd {
+  width: 75%;
+  color: #ccc;
+}
+
+/*버튼*/
+.btnBox {
+  width: 100%;
+  position: absolute;
+  bottom: 1rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.btn button {
+  font-family: "Bebas Neue";
+  width: 50%;
+  margin: 0.5rem;
+  font-size: 1.2vw;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  background-color: #db1f2b;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+#adminBtn {
+  display: none;
+}
+
+.Container {
+  font-family: "Bebas Neue";
+  margin: auto;
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.077);
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  display: block;
+  padding: 2rem;
+}
+#commentBox {
+  background-color: rgba(255, 255, 255, 0.147);
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  display: block;
+  padding: 2rem;
+  color: white;
+}
+
+#submitButton {
+  font-family: "Bebas Neue";
+  font-size: 0.8em;
+  border-radius: 10px;
+  color: white;
+  background-color: #db1f2b;
+  font-weight: bold;
+  border: none;
+  padding: 0.5em;
+  margin-left: 1em;
+}
+
+#submitButton:hover {
+  background-color: #ffffff;
+  color: #db1f2b;
+}
+.commentRow {
+  padding: 0.8em;
+  margin: 0.8em;
+  border-bottom: dotted 1px;
+}
+.commentDelete {
+  background: none;
+  border: none;
+  font-weight: bold;
+  color: white;
+  margin: auto;
+}
+.commentDelete:hover {
+  color: #db1f2b;
+}
+#commentInput {
+  border: none;
+  width: 90%;
+  border-radius: 5px;
+  padding: 0.5em;
+  margin: 1em 0;
+  background-color: rgba(255, 255, 255, 0.147);
+  color: white;
+}
+
+.commentSpan {
+  padding-right: 0.5em;
+}
+.commentDiv {
+  padding: 1em 0;
+}
+.commentTitle {
+  text-align: center;
+  font-size: 3em;
+  color: #db1f2b;
+  padding: 0.5em;
+}

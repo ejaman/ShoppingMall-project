@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Texter</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/android-chrome-512x512.png"
+    />
+    <!-- bulma css nav-bar css-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- 폰트 어썸: 아이콘 -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/7630448495.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 커스텀 css, js -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="addProduct.css" />
+    <script src="addProduct.js" type="module" defer></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container containerstyle">
+        <!-- 회원 정보 수정 폼(Form) -->
+        <div class="update-user-form-container">
+          <form class="box update-user-form-box" id="addForm">
+            <p class="title is-4">상품추가하기</p>
+            <div class="field">
+              <label class="label" for="nameInput">도서명</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="nameInput"
+                  type="text"
+                  placeholder="title"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="category">카테고리</label>
+              <div class="select">
+                <select id="category"></select>
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="priceInput">가격</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="priceInput"
+                  type="number"
+                  placeholder="price"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+
+            <div class="field mb-5">
+              <label class="label" for="authorInput">저자</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="authorInput"
+                  type="text"
+                  placeholder="author"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+            <div class="field mb-5">
+              <label class="label" for="publisherInput">출판사</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="publisherInput"
+                  type="text"
+                  placeholder="publisher"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+
+            <div class="field mb-5">
+              <label class="label" for="descriptionInput">상품설명</label>
+              <div class="control">
+                <textarea
+                  class="textarea"
+                  id="descriptionInput"
+                  rows="2"
+                  placeholder="description"
+                  autocomplete="on"
+                ></textarea>
+              </div>
+            </div>
+
+            <div class="field mb-5">
+              <label class="label" for="imgUrlInput">이미지 URL</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="imgUrlInput"
+                  type="text"
+                  placeholder="img url"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+
+            <button
+              class="button is-link is-outlined is-fullwidth"
+              id="submitBtn"
+            >
+              ADD
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

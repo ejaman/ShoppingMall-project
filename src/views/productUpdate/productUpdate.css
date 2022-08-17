@@ -1,0 +1,84 @@
+html, body {
+  background-color: black;
+  font-family: "Bebas Neue";
+}
+  
+.navbar {
+  background-color: black;
+  border-bottom: 1px solid;
+}
+  
+.navbar a {
+  color: white;
+}
+  
+.navbar a:hover {
+  color: #db1f2b;
+}
+
+.section{
+  width: 50%;
+  margin: auto;
+  margin-top: 2em;
+  padding: 1em;
+}
+
+#registerCategoryForm{
+  background-color: rgba(255, 255, 255, 0.131);
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  padding: 1em;
+}
+
+.panel-heading {
+  background-color: #db1f2b;
+  color: white;
+  margin-bottom: 2vh;
+  vertical-align: middle;
+}
+.control {
+  width: 80%;
+  vertical-align: middle;
+}
+
+.field {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid;
+}
+
+.label {
+  width: 20%;
+  color: white;
+  vertical-align: middle;
+}
+
+.input,
+#categoryInput,
+#descriptionInput {
+  border: none;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.147);
+  color: white;
+  vertical-align: middle;
+}
+
+.panel-block{
+    padding: 0;
+    height: 5vh;
+}
+
+#submitBtn {
+  background-color: #db1f2b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%
+}
+
+#submitBtn:hover {
+  background-color: #4a4a4a;
+  color: white;
+}

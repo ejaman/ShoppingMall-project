@@ -1,0 +1,150 @@
+html {
+  width: 100%;
+  background-color: black;
+}
+.navbar {
+  background-color: black;
+  border-bottom: 1px solid;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  color: #db1f2b;
+}
+
+.cartpage {
+  color: white;
+  margin-top: 3em;
+  padding: 3rem 5rem;
+  font-family: "Bebas Neue";
+}
+.cartcontainer {
+  padding: 0em 7em;
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+  height: 100vh;
+}
+.cart-title {
+  text-align: center;
+  font-size: 4em;
+  color: #db1f2b;
+  padding: 0.5em;
+}
+.cart-Info {
+  background-color: rgba(255, 255, 255, 0.077);
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  display: block;
+  padding: 2rem;
+}
+
+.cart-header {
+  display: flex;
+  margin-bottom: 0.5rem;
+  padding: 0.75rem;
+  width: 100%;
+  border-bottom: 1px solid #ffffff25;
+}
+.button {
+  font-family: "Bebas Neue";
+  font-size: 0.8em;
+  border-radius: 20px;
+  color: white;
+  background-color: #db1f2b;
+  font-weight: bold;
+  border: none;
+  margin-left: 3em;
+}
+
+.button:hover {
+  background-color: #4a4a4a;
+  color: white;
+}
+.right {
+  margin-left: auto;
+}
+
+.cart-lists {
+  border-radius: 6px;
+  display: block;
+  padding: 0 1.5rem;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+  padding: 2rem 0;
+  position: relative;
+  border-bottom: 1px solid #ffffff25;
+}
+.row-element {
+  padding: 0 1em;
+  /* border: 1px solid white; */
+}
+i {
+  color: white;
+}
+.subtitle,
+.title {
+  color: white;
+}
+.check {
+  margin: 0em 1em 0em 2em;
+}
+.book-info {
+  width: 30%;
+  padding: 0 2em;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  width: 7em;
+}
+.image {
+  width: 100%;
+  width: 8em;
+}
+.quantity {
+  font-size: 1.2em;
+  padding: 0.2em;
+  margin-top: 0.2em;
+  border: none;
+  background: none;
+}
+.quantity:hover {
+  opacity: 0.7;
+}
+.delete {
+  position: absolute;
+  right: 5rem;
+}
+
+.summary {
+  display: flex;
+  padding: 1em;
+}
+.orderInfo {
+  display: flex;
+  padding: 0 0.75rem;
+  width: 100%;
+}
+.info {
+  padding-left: 1em;
+}
+.info span {
+  margin: 0.2em;
+}
+.total {
+  font-weight: bold;
+  margin-left: auto;
+}
+.order {
+  display: flex;
+  padding: 0 0.75rem;
+  width: 100%;
+}

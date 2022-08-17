@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>orders-user-wireframe</title>
+
+    <!-- 아이콘 -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/android-chrome-512x512.png"
+    />
+    <!-- 폰트 어썸: 아이콘 -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/7630448495.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bulma css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- 커스텀 css, js -->
+    <link rel="stylesheet" href="userOrders.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script src="userOrders.js" type="module" defer></script>
+  </head>
+
+  <body>
+    <section class="orders-container">
+      <!-- 유저 주문 조회가 담기는 곳 -->
+      <table class="table">
+        <thead class="thead">
+          <tr>
+            <td id="color">no.</td>
+            <td id="color">주문 날짜</td>
+            <td id="color">주문 정보</td>
+            <td id="color">상태</td>
+            <td id="color">신청</td>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          <!-- <tr>
+            <th>1</th>
+            <td>주문 날짜 - ${e._id}</td>
+            <td>${e.orderedBooks.map((a) => a.bookId.title)}</td>
+            <td>${e.status</td>
+            <td>
+              <button type="button" class="cancelButton">주문 취소</button>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,81 @@
+body {
+  width: 100%;
+  background-color: black;
+  font-family: "Bebas Neue";
+}
+.navbar {
+  background-color: black;
+  border-bottom: 1px solid;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  color: #db1f2b;
+}
+
+.containerstyle {
+  width: 45%;
+  padding: 1em 1em 1em 1em;
+  height: 105vh;
+}
+.panel,
+.section {
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.077);
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  display: block;
+  padding: 2rem;
+}
+.panel-heading {
+  background-color: #db1f2b;
+  color: white;
+}
+
+#addCategoryButton {
+  background-color: #db1f2b;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+#addCategoryButton:hover {
+  background-color: #4a4a4a;
+  color: white;
+}
+
+.table {
+  width: 100%;
+  background: none;
+  text-align: center;
+}
+#color {
+  color: white;
+}
+.input-name {
+  color: white;
+  text-align: center;
+  background: none;
+  border: none;
+  font-size: 1em;
+  padding-right: 1em;
+}
+.input-name::placeholder {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.delete-btn,
+.edit-btn {
+  padding: 0.5em;
+  font-family: "Bebas Neue", cursive;
+  font-size: 0.8em;
+  border-radius: 20px;
+  color: white;
+  background-color: #db1f2b;
+  font-weight: bold;
+  border: none;
+}
+.delete-btn {
+  background-color: white;
+}

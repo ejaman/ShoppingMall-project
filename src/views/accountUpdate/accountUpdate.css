@@ -1,0 +1,78 @@
+html, body {
+  background-color: black;
+  font-family: "Bebas Neue";
+}
+  
+.navbar {
+  background-color: black;
+  border-bottom: 1px solid;
+}
+  
+.navbar a {
+  color: white;
+}
+  
+.navbar a:hover {
+  color: #db1f2b;
+}
+
+#securityTitle {
+  color: white;
+  font-size: 1.4vw;
+}
+
+.update-user-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+  margin-top: 100px;
+}
+
+.update-user-form-box {
+  width: 30rem;
+  background-color: rgba(255, 255, 255, 0.131);
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+  padding: 1em;
+}
+
+.update-user-form-box .title {
+  text-align: center;
+  color: #db1f2b;
+}
+
+.label {
+  color: white;
+}
+
+.input {
+  border: none;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.147);
+  color: white;
+  vertical-align: middle;
+}
+
+.update-user-form-box .button {
+  font-weight: bold;
+}
+
+.button{
+  background-color: #db1f2b;
+  border: none;
+  border-radius: 6px;
+  color: white;
+}
+
+.button:hover {
+  background-color: #4a4a4a;
+  color: white;
+}
+
+#saveButton,
+#deleteAccountButton,
+#cancelButton {
+  width: 100%;
+  margin-bottom: 1.4vh;
+}

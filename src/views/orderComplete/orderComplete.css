@@ -1,0 +1,60 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url("https://i.pinimg.com/564x/d6/48/3f/d6483fc4e2b4bde3b2af9a546025d033.jpg");
+}
+.navbar {
+  background-color: black;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  color: #db1f2b;
+}
+
+.order {
+  margin-top: 3em;
+  /* padding: 3rem 7rem; */
+  font-family: "Bebas Neue";
+}
+.containerstyle {
+  width: 30%;
+  background-color: #000000d8;
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  display: block;
+  padding: 2rem;
+  text-align: center;
+  align-items: center;
+}
+.header {
+  color: white;
+}
+.fa-solid {
+  font-size: 5em;
+  color: white;
+}
+.order-title {
+  text-align: center;
+  font-size: 3em;
+  padding: 0.5em;
+}
+.button {
+  font-family: "Bebas Neue", cursive;
+  font-size: 0.7em;
+  border-radius: 5px;
+  color: white;
+  background-color: #db1f2b;
+  margin: 0.5em;
+  border: none;
+}
+.button:hover {
+  background-color: #4a4a4a;
+  color: white;
+}
+#homeBtn {
+  margin-top: 2em;
+}

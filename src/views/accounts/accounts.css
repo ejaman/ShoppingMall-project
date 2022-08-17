@@ -1,0 +1,123 @@
+html, body {
+  background-color: black;
+  font-family: "Bebas Neue";
+}
+
+.navbar {
+  background-color: black;
+  border-bottom: 1px solid;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: #db1f2b;
+}
+/* 
+div {
+  display: block;
+} */
+/*   
+body {
+  min-height: 100%;
+  display:flex;
+  flex-direction: column;
+} */
+  
+
+/**********/
+/* containers */
+/**********/
+  
+/* .accounts-container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 100vw;
+} */
+
+/* .accounts-container .container-box {
+  display: flex;
+  flex-direction: column;
+  padding: 20px; 
+  margin-left: 25px;
+  margin-right: 25px; 
+  margin-top: 25px;
+  border: solid white;
+} */
+.manageContainer {
+  flex-grow: 1;
+  margin: 5vh auto;
+  position: relative;
+  width: 80%;
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.125;
+}
+
+.menuContainer {
+  grid-gap: 2rem;
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(25rem,1fr));
+  text-decoration: none;
+}
+
+.menuCard {
+  align-items: center;
+  border: 1px solid #999;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+}
+
+.menuCard:hover {
+  background-color: #222;
+}
+
+.menuIcon {
+  font-size: 3.5rem;
+  margin: 0 2rem;
+  padding: 1rem;
+}
+
+.menuContainer i {
+  color: #db1f2b;
+}
+
+.icon {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  height: 1.5rem;
+  width: 1.5rem;
+}
+
+.menuBody {
+  border-radius: 6px;
+  color: white;
+  flex-grow: 1;
+  font-size: 1.25em;
+  padding: 1em;
+}
+
+.title.is-3 {
+  color: white;
+}
+
+.subtitle.is-5 {
+  color: #ccc;
+}
+
+#myOrders {
+  display: none;
+}

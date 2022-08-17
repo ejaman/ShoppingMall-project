@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Texter</title>
+
+    <!-- 아이콘 -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/android-chrome-512x512.png"
+    />
+    <!-- 폰트 어썸: 아이콘 -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/7630448495.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bulma css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- 커스텀 css, js -->
+    <link rel="stylesheet" href="./orderList.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./orderList.js" type="module" defer></script>
+  </head>
+
+  <body>
+    <section class="ordersContainer">
+      <!-- 전체 유저 목록이 담기는 곳 -->
+      <label class="label">주문관리</label>
+      <table class="table">
+        <thead id="thead">
+          <tr>
+            <th id="color">주문날짜</th>
+            <th id="color">주문정보</th>
+            <th id="color">주문총액</th>
+            <th id="color">상태관리</th>
+            <th id="color">취소</th>
+          </tr>
+        </thead>
+        <tbody class="tbody">
+          <!-- <tr>
+            <th>1</th>
+            <td>주문 날짜</td>
+            <td>윤영주</td>
+            <td>
+              <select name="role">
+                <option value="basic-user">일반사용자</option>
+                <option value="admin-user">관리자</option>
+              </select>
+            </td>
+            <td>
+              <button type="button" class="deleteButton">회원삭제</button>
+            </td>
+          </tr> -->
+        </tbody>
+      </table>
+    </section>
+    <script src="./orderList.js" type="module" defer></script>
+  </body>
+</html>

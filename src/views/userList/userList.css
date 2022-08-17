@@ -1,0 +1,69 @@
+html, body {
+    background-color: black;
+    font-family: "Bebas Neue";
+  }
+      
+  .navbar {
+    background-color: black;
+    border-bottom: 1px solid;
+  }
+      
+  .navbar a {
+    color: white;
+  }
+      
+  .navbar a:hover {
+    color: #db1f2b;
+  } 
+  
+  .usersContainer {
+     display: flex;
+     flex-direction: column;
+  }
+  
+  .label {
+    color: white;
+    font-size: 2vw;
+    margin: auto;
+    margin-top: 5vh;
+    margin-left: 15vw;
+  }
+  
+  .table {
+    margin: auto;
+    width: 70%;
+    font-size: 1rem;
+    background-color: rgba(255, 255, 255, 0.131);
+    border-radius: 6px;
+    box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%), 0 0 0 1px rgb(10 10 10 / 2%);
+    padding: 1em;
+    color: white;
+  }
+  
+  #color {
+    color: white;
+    font-weight: 500;
+    vertical-align: middle;
+  }
+  
+  .table td{
+    vertical-align: middle;
+  }
+  
+  .deleteButton {
+    color: white;
+    width: 5.5vw;
+    height: 3.4vh;
+    font-size: 1rem;
+    background-color: #db1f2b;
+    border: none;
+    border-radius: 6px;
+    vertical-align: middle;
+  }
+  
+  .selectButton {
+    background-color: #ddd;
+    border-radius: 6px;
+    width: 7vw;
+    height: 3.4vh;
+  }

@@ -1,0 +1,126 @@
+html {
+  background-color: black;
+}
+.navbar {
+  background-color: black;
+  border-bottom: 1px solid;
+}
+.navbar a {
+  color: white;
+}
+.navbar a:hover {
+  color: #db1f2b;
+}
+#color {
+  color: white;
+}
+.order {
+  margin-top: 3em;
+  padding: 3rem 7rem;
+  font-family: "Bebas Neue";
+}
+
+.containerstyle {
+  background-color: rgba(255, 255, 255, 0.077);
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  display: block;
+  padding: 2rem;
+}
+.order-title {
+  color: #db1f2b;
+  text-align: center;
+  font-size: 3em;
+  padding: 0.5em;
+}
+.Info {
+  padding: 0em 5em;
+  text-align: center;
+}
+.shipping {
+  background-color: rgba(255, 255, 255, 0.077);
+  border-radius: 6px;
+  box-shadow: 0 0.5em 1em -0.125em rgb(10 10 10 / 10%),
+    0 0 0 1px rgb(10 10 10 / 2%);
+  display: block;
+  padding: 2rem;
+}
+.checkbox {
+  color: white;
+}
+.field {
+  text-align: left;
+}
+
+.cart-pay {
+  padding: 1em 3em;
+  font-family: "Bebas Neue";
+  font-weight: bold;
+}
+.border {
+  align-items: center;
+  display: inline-block;
+  width: 20%;
+  border: 1px rgba(227, 227, 227, 0.264) solid;
+  margin-bottom: 3em;
+}
+.book-Info {
+  padding: 0 10em;
+  width: 100%;
+  color: white;
+}
+.styling-address {
+  display: flex;
+}
+thead {
+}
+tr {
+  height: 2.5em;
+  color: white;
+  text-align: left;
+}
+.table-body {
+  text-align: left;
+}
+
+.pay-Info {
+  color: white;
+  text-align: right;
+  padding: 0.5em;
+  margin-top: 4em;
+}
+.pay-Info span {
+  font-size: 1.1em;
+}
+.button {
+  font-family: "Bebas Neue";
+  font-size: 0.8em;
+  border-radius: 10px;
+  color: white;
+  background-color: #db1f2b;
+  font-weight: bold;
+  border: none;
+}
+#submitBtn {
+  margin-top: 2em;
+}
+
+#searchAddressButton {
+  margin-left: 1em;
+  color: white;
+  background-color: #db1f2b;
+}
+.input,
+#requestSelectBox {
+  border: none;
+  background-color: rgba(255, 255, 255, 0.147);
+  color: white;
+}
+
+.input::placeholder {
+  color: rgba(255, 255, 255, 0.657);
+}
+.label {
+  color: white;
+}

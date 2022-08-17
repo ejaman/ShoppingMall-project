@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Texter</title>
+    <!-- 아이콘 -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/android-chrome-512x512.png"
+    />
+    <!-- bulma css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- 폰트 어썸: 아이콘 -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/7630448495.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 커스텀 css, js -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script src="productDetail.js" type="module" defer></script>
+    <link rel="stylesheet" href="productDetail.css" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <!-- 정보카드 왼쪽 박스 (img) -->
+        <div class="productLeftBox"></div>
+
+        <!-- 정보카드 오른쪽 박스 (detail) -->
+        <div class="productRightBox">
+          <!-- 카테고리 -->
+          <div class="category"></div>
+
+          <!-- 제품명 -->
+          <div class="titleTag"></div>
+
+          <!-- 가격 -->
+          <div class="priceTag">
+            <span id="price"></span>
+            <span class="won">원</span>
+          </div>
+
+          <!-- 저자 -->
+          <dl class="list">
+            <dt>저자</dt>
+            <dd>
+              <p id="writerTag"></p>
+            </dd>
+          </dl>
+
+          <!-- 출판사 -->
+          <dl class="list">
+            <dt>출판사</dt>
+            <dd>
+              <span id="publisherTag"></span>
+            </dd>
+          </dl>
+
+          <!-- 제품 설명 -->
+          <dl class="list">
+            <dt>상품 설명</dt>
+            <dd>
+              <p id="descriptionTag"></p>
+            </dd>
+          </dl>
+
+          <!-- 버튼박스 -->
+          <div class="btnBox">
+            <div class="btn" , id="userBtn">
+              <button id="cartBtn">장바구니 추가하기</button>
+              <button id="purchaseBtn">바로 구매하기</button>
+            </div>
+            <div class="btn" , id="adminBtn">
+              <button id="updateBtn">상품 수정하기</button>
+              <button id="deleteBtn">상품 삭제하기</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="Container">
+        <div class="commentTitle">COMMENTS</div>
+        <input type="text" id="commentInput" />
+        <button id="submitButton">댓글작성</button>
+        <div id="commentBox"></div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TEXTER</title>
+    <!-- 아이콘 -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/android-chrome-512x512.png"
+    />
+    <!-- bulma css 관련 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- 폰트 어썸: 아이콘 -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/7630448495.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 커스텀 css, js -->
+    <link rel="stylesheet" href="./accountUpdate.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./accountUpdate.js" type="module" defer></script>
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="accountHeader">
+          <h1 id="securityTitle">회원정보 관리 (example@gmail.com)</h1>
+        </div>
+
+        <!-- 회원 정보 수정 폼(Form) -->
+        <div class="update-user-form-container">
+          <form class="box update-user-form-box" id="updateUserForm">
+            <p class="title is-5">회원 정보 수정</p>
+            <div class="field">
+              <label class="label" for="fullNameInput">이름</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="fullNameInput"
+                  type="text"
+                  placeholder="유재석"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="currentPasswordInput"
+                >현재 비밀번호</label
+              >
+              <div class="control">
+                <input
+                  class="input"
+                  id="currentPasswordInput"
+                  type="password"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+
+            <div class="field">
+              <label class="label" for="passwordInput">새 비밀번호</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="passwordInput"
+                  type="password"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+
+            <div class="field mb-5">
+              <label class="label" for="passwordConfirmInput"
+                >새 비밀번호 확인</label
+              >
+              <div class="control">
+                <input
+                  class="input"
+                  id="passwordConfirmInput"
+                  type="password"
+                  autocomplete="off"
+                />
+              </div>
+            </div>
+
+            <!-- 주소 찾기 -->
+            <div class="field is-horizontal">
+              <div class="field-label is-normal">
+                <label class="label" for="address2">주소</label>
+              </div>
+              <div class="field-body search">
+                <div class="field">
+                  <p class="control">
+                    <input
+                      class="input"
+                      id="postalCodeInput"
+                      type="text"
+                      placeholder="주소찾기를 클릭해 주세요."
+                      readonly
+                    />
+                  </p>
+                </div>
+                <div>
+                  <button
+                    class="button"
+                    id="searchAddressButton"
+                  >
+                    주소찾기
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="field is-horizontal">
+              <div class="field-label is-normal no-label"></div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control">
+                    <input
+                      class="input"
+                      id="address1Input"
+                      type="text"
+                      placeholder=""
+                      autocomplete="on"
+                      readonly
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="field is-horizontal">
+              <div class="field-label is-normal no-label"></div>
+              <div class="field-body">
+                <div class="field">
+                  <p class="control">
+                    <input
+                      class="input"
+                      id="address2Input"
+                      type="text"
+                      placeholder=""
+                      autocomplete="on"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="field mb-5">
+              <label class="label" for="phoneNumberInput">휴대폰 번호</label>
+              <div class="control">
+                <input
+                  class="input"
+                  id="phoneNumberInput"
+                  type="text"
+                  placeholder="000-0000-0000"
+                  autocomplete="on"
+                />
+              </div>
+            </div>
+
+            <button class="button" id="saveButton">
+              저장하기
+            </button>
+            <button
+              class="button"
+              id="deleteAccountButton"
+            >
+              탈퇴하기
+            </button>
+            <button class="button" id="cancelButton">
+              취소하기
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js"></script>
+    <script src="./accountUpdate.js" type="module" defer></script>
+  </body>
+</html>

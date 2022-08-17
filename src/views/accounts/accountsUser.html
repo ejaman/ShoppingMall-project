@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Texter</title>
+
+    <!-- 아이콘 -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/android-chrome-512x512.png"
+    />
+    <!-- bulma css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <!-- 폰트 어썸: 아이콘 -->
+    <script
+      defer
+      src="https://kit.fontawesome.com/7630448495.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- 커스텀 css, js -->
+    <script src="accounts.js" type="module" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="accounts.css" />
+  </head>
+
+  <body>
+    <div class="manageContainer">
+      <div class="block account-header">
+        <h1 class="title">계정관리</h1>
+      </div>
+      <div class="menuContainer">
+        <!-- 주문 조회 -->
+        <a class="menuCard" href="/orders" id="myOrders">
+          <div class="menuIcon">
+            <span class="icon has-text-info">
+              <i class="fa-solid fa-credit-card">
+                
+              </i>
+            </span>
+          </div>
+          <div class="menuBody">
+            <p class="title is-3">주문 조회</p>
+            <p class="subtitle is-5">주문 내역을 조회하고, 취소할 수 있습니다.</p>
+          </div>
+        </a>
+        <!-- 내 정보 관리 -->
+        <a class="menuCard" href="/accountUpdate/checkPassword" id="myInfo">
+          <div class="menuIcon">
+            <span class="icon has-text-info">
+              <i class="fa-solid fa-address-book">
+                
+              </i>
+            </span>
+          </div>
+          <div class="menuBody">
+            <p class="title is-3">내 정보 관리</p>
+            <p class="subtitle is-5">나의 회원정보를 수정하고 탈퇴할 수 있습니다.</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

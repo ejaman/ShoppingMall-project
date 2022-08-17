@@ -1,0 +1,194 @@
+body {
+  background-color: black;
+  font-family: "Bebas Neue"
+}
+
+.navbar {
+  background-color: black;
+  /* border-bottom: 1px solid; */
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar a:hover {
+  color: #db1f2b;
+}
+
+li {
+  list-style: none;
+}
+
+/*   slide   */
+
+.slide a {
+  position: absolute;
+  left: 50vw;
+  width: 30vw;
+  bottom: 0;
+  color: white;
+  font-size: 3vw;
+  word-break: break-all;
+}
+
+.slideContainer {
+  width: 100vw;
+  height: 60vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(#333, 80%, black);
+  z-index: 2;
+}
+
+.slideWrap {
+  display: block;
+  width: 10000%;
+  position: relative;
+  transition: all 750ms ease;
+}
+
+.slide {
+  float: left;
+  position: relative;
+  width: 100vw;
+}
+
+.slide img {
+  position: relative;
+  top: 10vh;
+  left: 30vw;
+  text-align: center;
+  width: 15vw;
+  display: inline-block;
+  align-items: center;
+}
+
+/* << >> */
+.arrow {
+  width: 5vw;
+  font-size: 4vw;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+}
+
+.arrow:hover {
+  color: #db1f2b;
+}
+
+#prev {
+  position: absolute;
+  top: 50%;
+  left: 1vw;
+  z-index: 20;
+  text-align: center;
+} 
+
+#next {
+  position: absolute;
+  top: 50%;
+  right: 3vw;
+  z-index: 20;
+  text-align: center;
+}
+/*  book list  */
+
+.bookList {
+  margin: auto;
+  position: relative;
+  width: 81vw;
+  overflow: hidden;
+}
+
+.listBox {
+  overflow: hidden;
+}
+
+.bookList .category {
+  display: block;
+  position: relative;
+  left: 1vw;
+  font-size: 2vw;
+  font-weight: 1000;
+  color: white;
+}
+
+.bookList ul {
+  display: block;
+  width: 10000%;
+  position: relative;
+  left: 0;
+  transition: all 750ms ease;
+}
+
+.bookList li {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: column;
+  width: 8vw;
+  margin: 1vw;
+}
+
+p.title.is-5 {
+  margin-bottom: 0;
+  color: #bbb;
+}
+
+.bookList li p {
+  display: inline-block;
+  width: 8vw;
+  padding: 1vw 0;
+  word-break: break-all;
+}
+
+.bookList img {
+  width: 10vw;
+}
+
+/********click slide********/
+.arrowPrev2 {
+  width: 5vw;
+  height: 14.5vw;
+  font-size: 3vw;
+  line-height: 14.28vw;
+  text-align: center;
+  color: white;
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+  position: absolute;
+  top: 38%;
+  left: -1vw;
+  z-index: 20;
+  transition: all 750ms ease;
+}
+
+.arrowNext2 {
+  width: 5vw;
+  height: 14.5vw;
+  font-size: 3vw;
+  line-height: 14.28vw;
+  text-align: center;
+  color: white;
+  transform: translateY(-50%);
+  transition: all 150ms ease;
+  position: absolute;
+  top: 38%;
+  right: -1vw;
+  z-index: 20;
+  transition: all 750ms ease;
+}
+
+.arrowPrev2:hover {
+  background: linear-gradient(to right, rgba( 0, 0, 0, 1 ), rgba( 0, 0, 0, 0 ));
+  color: white;
+  font-size: 4vw;
+}
+
+.arrowNext2:hover {
+  background: linear-gradient(to left, rgba( 0, 0, 0, 1 ), rgba( 0, 0, 0, 0 ));
+  color: white;
+  font-size: 4vw;
+}
